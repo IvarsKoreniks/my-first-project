@@ -41,8 +41,8 @@ public class VariablesDataTypes {
         System.out.println(isSpring);
 
         //String data type
-        String firstName = "Ivars";
-        String lastName = "Koreniks";
+        String firstName = "Ivar";
+        String lastName = "Korenik";
         System.out.println(firstName + " " + lastName);
 
         //Concatenation
