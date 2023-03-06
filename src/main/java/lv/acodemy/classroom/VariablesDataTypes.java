@@ -1,7 +1,6 @@
 package lv.acodemy.classroom;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class VariablesDataTypes {
     public static void main(String[]args){
@@ -42,7 +41,7 @@ public class VariablesDataTypes {
 
         //String data type
         String firstName = "Ivar";
-        String lastName = "Korenik";
+        String lastName = "Ivar2";
         System.out.println(firstName + " " + lastName);
 
         //Concatenation
@@ -75,12 +74,6 @@ public class VariablesDataTypes {
         //
         int [] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         System.out.println(Arrays.toString(numbers));
-
-//        for (int i = 0; i < numbers.length; i++) {
-//            if (numbers[i] % 2 ==0) {
-//                System.out.println("This ir even number " + numbers [i]);
-//            }
-//        }
 
     }
 }
