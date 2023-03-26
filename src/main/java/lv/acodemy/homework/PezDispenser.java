@@ -8,7 +8,7 @@ public class PezDispenser {
     private String pezName;
     private String pezColor;
     private String pezSeriesName;
-    private int pezMaxCandy = 12;
+    private final int pezMaxCandy = 12;
     private int pezCountCandy;
 
     public PezDispenser(String pezName, String pezColor, String pezSeriesName) {
