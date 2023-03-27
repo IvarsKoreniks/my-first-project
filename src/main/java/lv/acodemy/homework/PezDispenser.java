@@ -31,7 +31,7 @@ public class PezDispenser {
         if (eatCountCandy <= 0) {
             System.out.println("The number of candies must be greater than 0!");
         } else {
-            if (pezCountCandy > 0 & pezCountCandy - eatCountCandy >= 0) {
+            if (pezCountCandy > 0 && pezCountCandy - eatCountCandy >= 0) {
                 pezCountCandy = pezCountCandy -eatCountCandy;
                 System.out.printf("The PEZ dispenser give you %s candies!\n", eatCountCandy);
             } else {
@@ -62,7 +62,7 @@ public class PezDispenser {
         if (fillCountCandy <= 0) {
             System.out.println("The number of candies must be greater than 0!");
         } else {
-            if (pezCountCandy < pezMaxCandy & pezCountCandy + fillCountCandy <= pezMaxCandy) {
+            if (pezCountCandy + fillCountCandy <= pezMaxCandy) {
                 pezCountCandy = pezCountCandy + fillCountCandy;
                 System.out.printf("The PEZ dispenser have been added %s candies and now has %s candies!\n", fillCountCandy, pezCountCandy);
             } else {
